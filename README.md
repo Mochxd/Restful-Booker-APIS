@@ -61,7 +61,31 @@ Before you begin, ensure you have met the following requirements:
 2. Import the Postman collection located in the api-tests/collections directory.
 3. Configure the environment variables using the Postman environment files in the api-tests/environments directory or create your own environment file.
 4. Run the API tests using Postman's collection runner.
+
 **Running Tests via Command Line using Newman**
 You can also run the tests via the command line using Newman. Use the following command to run a specific test suite, specifying the environment:
   ```bash
   newman run BookingAPIS.json -e Bookingenvironment.json -r htmlextra
+
+
+## Test Suites 
+The tests are organized into collections within Postman, each focusing on specific API tasks:
+
+CREATE Token: Test suite for creating an authentication token.
+
+GET ALL Booking ID: Test suite for retrieving all booking IDs.
+
+CREATE Booking: Test suite for creating a new booking.
+
+GET Details For Booking ID: Test suite for retrieving details of a specific booking ID.
+
+UPDATE Booking: Test suite for updating an existing booking.
+
+UPDATE Booking Partially: Test suite for partially updating an existing booking.
+
+DELETE Booking: Test suite for deleting a booking.
+
+Ping - HealthCheck: Test suite for checking the API's health status.
+
+For more details on the test scenarios, expected outcomes, and specific requests, refer to the descriptions and comments provided within the Postman collections.
+
