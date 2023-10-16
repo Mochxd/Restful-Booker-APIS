@@ -14,7 +14,7 @@ This repository contains automated API tests for the Restful Booker API, utilizi
 - [Test Tasks](#test-Tasks)
 - [Generating HTML Reports](#generating-html-reports)
 - [Jenkins CI/CD](#jenkins-ci-cd)
-- [Contributing](#contributing)
+- [Project Structure](#Project Structure)
 - [License](#license)
 
 ## Features
@@ -58,8 +58,8 @@ Before you begin, ensure you have met the following requirements:
 
 **Running Tests in Postman**
 1. Open Postman.
-2. Import the Postman collection located in the api-tests/collections directory.
-3. Configure the environment variables using the Postman environment files in the api-tests/environments directory or create your own environment file.
+2. Import the Postman collection.
+3. Configure the environment variables using the Postman environment "Bookingenvironment" directory or create your own environment file.
 4. Run the API tests using Postman's collection runner.
 
 **Running Tests via Command Line using Newman**
@@ -78,7 +78,7 @@ Before you begin, ensure you have met the following requirements:
 
 **- CREATE Booking:** Test Task for creating a new booking.
 
-****- GET Details For Booking ID:** **Test Task for retrieving details of a specific booking ID.
+**- GET Details For Booking ID:** **Test Task for retrieving details of a specific booking ID.
 
 **- UPDATE Booking**: Test Task for updating an existing booking.
 
@@ -89,3 +89,30 @@ Before you begin, ensure you have met the following requirements:
 **- Ping - HealthCheck:** Test Task for checking the API's health status.
 
 - For more details on the test scenarios, expected outcomes, and specific requests you will find it in the Google sheets.
+
+## Generating HTML Reports
+Newman supports multiple reporters, including htmlextra, which generates detailed HTML reports for your API test runs. To generate HTML reports, simply specify the -r htmlextra option when running Newman, as shown in the example above.
+
+The HTML reports will be available in the reports directory of this repository.
+
+## Jenkins CI/CD
+The repository is configured to automate the API testing process using Jenkins for CI/CD. Jenkins pipelines are set up to trigger API tests when changes are pushed to the repository. Jenkins will run the tests, generate HTML reports, and provide feedback on the test results.
+
+## Project Structure
+📦 Restful Booker APIS
+ ┣ 📂 api-tests in Postman
+ ┃ ┃ ┣ 📜 CreateToken
+ ┃ ┃ ┣ 📜 GetAllBookingID
+ ┃ ┃ ┣ 📜 CreateBooking
+ ┃ ┃ ┣ 📜 GetDetailsForBookingID
+ ┃ ┃ ┣ 📜 UpdateBooking
+ ┃ ┃ ┣ 📜 UpdateBookingPartially
+ ┃ ┃ ┗ 📜 DeleteBooking
+ ┃ ┣ 📂 environments
+ ┃ ┃ ┗ 📜 Bookingenvironment.json
+ ┣ 📂 Tests
+ ┗ 📜 Manual Test Cases
+ ┣ 📂 reports
+ ┗ 📜 Newman HTMLEXTRA.html
+ ┗ 📜 Newman HTML.html
+ 
