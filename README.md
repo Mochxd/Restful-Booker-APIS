@@ -1,5 +1,8 @@
 # Restful Booker API Testing with Postman, Newman, and Jenkins CI/CD
 
+<code><img width="50" src="https://user-images.githubusercontent.com/25181517/192109061-e138ca71-337c-4019-8d42-4792fdaa7128.png" alt="Postman" title="Postman"/></code>
+<code><img width="50" src="https://user-images.githubusercontent.com/25181517/179090274-733373ef-3b59-4f28-9ecb-244bea700932.png" alt="Jenkins" title="Jenkins"/></code>
+
 ![Postman](https://img.shields.io/badge/Postman-Collection-brightgreen)
 ![Newman](https://img.shields.io/badge/Newman-Command_Line-brightgreen)
 ![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-brightgreen)
