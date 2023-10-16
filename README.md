@@ -59,6 +59,9 @@ Before you begin, ensure you have met the following requirements:
 **Running Tests in Postman**
 1. Open Postman.
 2. Import the Postman collection located in the api-tests/collections directory.
-3.Configure the environment variables using the Postman environment files in the api-tests/environments directory or create your own environment file.
-4.Run the API tests using Postman's collection runner.
-
+3. Configure the environment variables using the Postman environment files in the api-tests/environments directory or create your own environment file.
+4. Run the API tests using Postman's collection runner.
+**Running Tests via Command Line using Newman**
+You can also run the tests via the command line using Newman. Use the following command to run a specific test suite, specifying the environment:
+  ```bash
+  newman run BookingAPIS.json -e Bookingenvironment.json -r htmlextra
