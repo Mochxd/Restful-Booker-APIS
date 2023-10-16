@@ -99,6 +99,7 @@ The HTML reports will be available in the reports directory of this repository.
 The repository is configured to automate the API testing process using Jenkins for CI/CD. Jenkins pipelines are set up to trigger API tests when changes are pushed to the repository. Jenkins will run the tests, generate HTML reports, and provide feedback on the test results.
 
 ## Project Structure
+
 📦 Restful Booker APIS
  ┣ 📂 api-tests in Postman
  ┃ ┃ ┣ 📜 CreateToken
