@@ -1,11 +1,9 @@
 # Restful Booker API Testing with Postman, Newman, and Jenkins CI/CD
-<a href="https://www.postman.com/"><img src="https://user-images.githubusercontent.com/25181517/192109061-e138ca71-337c-4019-8d42-4792fdaa7128.png" title="POSTMAN" alt="POSTMAN" width="40" height="40"/></a>
-<a href="https://www.jenkins.io"><img src="https://user-images.githubusercontent.com/25181517/179090274-733373ef-3b59-4f28-9ecb-244bea700932.png" title="Jenkins" alt="Jenkins" width="40" height="40"/></a>
-![Newman](https://img.shields.io/badge/Newman-Command_Line-brightgreen)
 
 This repository contains automated API tests for the Restful Booker API, utilizing Postman collections and Newman for test execution. Additionally, it incorporates Jenkins for continuous integration and continuous delivery (CI/CD) to automate the testing process. The Restful Booker API is a sample API for testing and learning purposes. The test Modules covers a variety of endpoints and tests to ensure the API's functionality and reliability.
 
 ## Table of Contents
+- [Technoloy Used](#Technoloy-Used)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -16,6 +14,10 @@ This repository contains automated API tests for the Restful Booker API, utilizi
 - [Project Structure](#Project-Structure)
 - [Contact](#Contact)
 
+## Technoloy Used
+<a href="https://www.postman.com/"><img src="https://user-images.githubusercontent.com/25181517/192109061-e138ca71-337c-4019-8d42-4792fdaa7128.png" title="POSTMAN" alt="POSTMAN" width="40" height="40"/></a>
+<a href="https://www.jenkins.io"><img src="https://user-images.githubusercontent.com/25181517/179090274-733373ef-3b59-4f28-9ecb-244bea700932.png" title="Jenkins" alt="Jenkins" width="40" height="40"/></a>
+![Newman](https://img.shields.io/badge/Newman-Command_Line-brightgreen)
 ## Features
 - Detailed and organized API test suites.
 - Test cases covering various endpoints, HTTP methods, and scenarios using Google sheets.
