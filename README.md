@@ -103,15 +103,7 @@ The repository is configured to automate the API testing process using Jenkins f
 
 - Restful-Booker-APIS
 - ├──  BookingAPIS.json
-- │   ├── 📜 CreateToken
-- │   ├── 📜 GetAllBookingID
-- │   ├── 📜 CreateBooking
-- │   ├── 📜 GetDetailsForBookingID
-- │   ├── 📜 UpdateBooking
-- │   ├── 📜 UpdateBookingPartially
-- │   └── 📜 DeleteBooking
-- ├──  environments
-- │   └── Bookingenvironment.json
+- ├──  Bookingenvironment.json
 - ├──  Tests
 - │   └── 📜 Manual Test Cases
 - ├──  reports
