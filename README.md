@@ -14,7 +14,7 @@ This repository contains automated API tests for the Restful Booker API, utilizi
 - [Test Tasks](#test-Tasks)
 - [Generating HTML Reports](#generating-html-reports)
 - [Jenkins CI/CD](#jenkins-ci-cd)
-- [Project Structure](#Project Structure)
+- [Project Structure](#Project-Structure)
 - [License](#license)
 
 ## Features
@@ -115,4 +115,28 @@ The repository is configured to automate the API testing process using Jenkins f
  ┣ 📂 reports
  ┗ 📜 Newman HTMLEXTRA.html
  ┗ 📜 Newman HTML.html
+
+ Restful-Booker-API-Testing/
+├── .github/
+│   ├── workflows/
+│   │   ├── ci-cd.yml          # Jenkins CI/CD pipeline configuration
+├── api-tests/
+│   ├── collections/
+│   │   ├── CreateToken.postman_collection.json       # Postman collection for creating a token
+│   │   ├── GetAllBookingID.postman_collection.json    # Postman collection for retrieving all booking IDs
+│   │   ├── CreateBooking.postman_collection.json      # Postman collection for creating a booking
+│   │   ├── GetDetailsForBookingID.postman_collection.json  # Postman collection for getting booking details
+│   │   ├── UpdateBooking.postman_collection.json      # Postman collection for updating a booking
+│   │   ├── UpdateBookingPartially.postman_collection.json # Postman collection for partially updating a booking
+│   │   ├── DeleteBooking.postman_collection.json      # Postman collection for deleting a booking
+│   │   ├── PingHealthCheck.postman_collection.json     # Postman collection for API health check
+│   ├── environments/
+│   │   ├── development.postman_environment.json        # Postman environment for development
+│   │   ├── production.postman_environment.json         # Postman environment for production
+├── reports/                        # Generated HTML test reports
+├── Jenkinsfile                    # Jenkins pipeline configuration
+├── README.md                      # Detailed project documentation
+├── CONTRIBUTING.md                # Guidelines for contributors
+├── LICENSE                        # Project license information
+
  
