@@ -14,7 +14,7 @@ This repository contains automated API tests for the Restful Booker API, utilizi
 - [Project Structure](#Project-Structure)
 - [Contact](#Contact)
 
-## Technoloy Used
+##  technologies Used
 <a href="https://www.postman.com/"><img src="https://user-images.githubusercontent.com/25181517/192109061-e138ca71-337c-4019-8d42-4792fdaa7128.png" title="POSTMAN" alt="POSTMAN" width="40" height="40"/></a>
 <a href="https://www.jenkins.io"><img src="https://user-images.githubusercontent.com/25181517/179090274-733373ef-3b59-4f28-9ecb-244bea700932.png" title="Jenkins" alt="Jenkins" width="40" height="40"/></a>
 ![Newman](https://img.shields.io/badge/Newman-Command_Line-brightgreen)
