@@ -1,8 +1,8 @@
 # Restful Booker API Testing with Postman, Newman, and Jenkins CI/CD
 
-![Postman]([https://img.shields.io/badge/Postman-Collection-brightgreen](https://user-images.githubusercontent.com/25181517/192109061-e138ca71-337c-4019-8d42-4792fdaa7128.png))
+![Postman](https://img.shields.io/badge/Postman-Collection-brightgreen)
 ![Newman](https://img.shields.io/badge/Newman-Command_Line-brightgreen)
-![Jenkins]([https://img.shields.io/badge/Jenkins-CI/CD-brightgreen](https://user-images.githubusercontent.com/25181517/179090274-733373ef-3b59-4f28-9ecb-244bea700932.png))
+![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-brightgreen)
 
 This repository contains automated API tests for the Restful Booker API, utilizing Postman collections and Newman for test execution. Additionally, it incorporates Jenkins for continuous integration and continuous delivery (CI/CD) to automate the testing process. The Restful Booker API is a sample API for testing and learning purposes. The test suite covers a variety of endpoints and scenarios to ensure the API's functionality and reliability.
 
