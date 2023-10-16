@@ -38,19 +38,16 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-- Clone this repository to your local machine:
+1- Clone this repository to your local machine:
 
   ```bash
   git clone https://github.com/Mochxd/Restful-Booker-APIS.git
+2- Navigate to the project directory:
 
+  ```bash
+  cd Restful-Booker-APIS
+3- Install the project dependencies:
 
-
-
-
-
-
-
-
-
-
+  ```bash
+  npm install
 
