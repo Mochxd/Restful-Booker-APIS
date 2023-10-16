@@ -15,7 +15,7 @@ This repository contains automated API tests for the Restful Booker API, utilizi
 - [Generating HTML Reports](#generating-html-reports)
 - [Jenkins CI/CD](#jenkins-ci-cd)
 - [Project Structure](#Project-Structure)
-- [License](#license)
+- [Contact](#Contact)
 
 ## Features
 - Detailed and organized API test suites.
