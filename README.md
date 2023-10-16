@@ -100,21 +100,27 @@ The repository is configured to automate the API testing process using Jenkins f
 
 ## Project Structure
 
-📦 Restful Booker API
-.
-├── 📂 api-tests in Postman
-│   ├── 📜 CreateToken
-│   ├── 📜 GetAllBookingID
-│   ├── 📜 CreateBooking
-│   ├── 📜 GetDetailsForBookingID
-│   ├── 📜 UpdateBooking
-│   ├── 📜 UpdateBookingPartially
-│   └── 📜 DeleteBooking
-├── 📂 environments
-│   └── 📜 Bookingenvironment.json
-├── 📂 Tests
-│   └── 📜 Manual Test Cases
-├── 📂 reports
-│   ├── 📜 Newman HTMLEXTRA.html
-│   └── 📜 Newman HTML.html
+- 📦 Restful Booker API
+- ├── 📂 api-tests in Postman
+- │   ├── 📜 CreateToken
+- │   ├── 📜 GetAllBookingID
+- │   ├── 📜 CreateBooking
+- │   ├── 📜 GetDetailsForBookingID
+- │   ├── 📜 UpdateBooking
+- │   ├── 📜 UpdateBookingPartially
+- │   └── 📜 DeleteBooking
+- ├── 📂 environments
+- │   └── 📜 Bookingenvironment.json
+- ├── 📂 Tests
+- │   └── 📜 Manual Test Cases
+- ├── 📂 reports
+- │   ├── 📜 Newman HTMLEXTRA.html
+- │   └── 📜 Newman HTML.html
 
+## Contact
+
+If you have any questions, suggestions, or issues related to this project, please feel free to contact us. We welcome your feedback and contributions.
+
+- **Email**: Mohamedbadrxd@email.com
+
+Feel free to open an issue in this repository or reach out to me directly. I appreciate your interest and support!
