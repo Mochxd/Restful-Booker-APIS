@@ -19,9 +19,9 @@ This repository contains automated API tests for the Restful Booker API, utilizi
 
 ## Features
 - Detailed and organized API test suites.
-- Test cases covering various endpoints, HTTP methods, and scenarios.
+- Test cases covering various endpoints, HTTP methods, and scenarios using Google sheets.
 - Exported Postman collection for manual testing and integration into CI/CD pipelines.
-- Automation of API testing through Jenkins.
+- Automation of API testing through cmd and Jenkins.
 - Continuous integration (CI) and continuous delivery (CD) setup instructions.
 
 ## Prerequisites
@@ -33,3 +33,24 @@ Before you begin, ensure you have met the following requirements:
 
   ```bash
   npm install -g newman
+
+- **Jenkins**: You will need a Jenkins server set up for CI/CD automation. You can install Jenkins following the instructions on the Jenkins website.
+
+## Installation
+
+- Clone this repository to your local machine:
+
+  ```bash
+  git clone https://github.com/Mochxd/Restful-Booker-APIS.git
+
+
+
+
+
+
+
+
+
+
+
+
