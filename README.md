@@ -4,14 +4,14 @@
 ![Newman](https://img.shields.io/badge/Newman-Command_Line-brightgreen)
 ![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-brightgreen)
 
-This repository contains automated API tests for the Restful Booker API, utilizing Postman collections and Newman for test execution. Additionally, it incorporates Jenkins for continuous integration and continuous delivery (CI/CD) to automate the testing process. The Restful Booker API is a sample API for testing and learning purposes. The test suite covers a variety of endpoints and scenarios to ensure the API's functionality and reliability.
+This repository contains automated API tests for the Restful Booker API, utilizing Postman collections and Newman for test execution. Additionally, it incorporates Jenkins for continuous integration and continuous delivery (CI/CD) to automate the testing process. The Restful Booker API is a sample API for testing and learning purposes. The test Modules covers a variety of endpoints and tests to ensure the API's functionality and reliability.
 
 ## Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Test Suites](#test-suites)
+- [Test Tasks](#test-Tasks)
 - [Generating HTML Reports](#generating-html-reports)
 - [Jenkins CI/CD](#jenkins-ci-cd)
 - [Contributing](#contributing)
@@ -69,23 +69,23 @@ Before you begin, ensure you have met the following requirements:
   ```bash
   newman run BookingAPIS.json -e Bookingenvironment.json -r htmlextra
 
-## Test Suites
+## Test Tasks
 **The tests are organized into collections within Postman, each focusing on specific API tasks:**
 
-- CREATE Token: Test suite for creating an authentication token.
+**- CREATE Token:** Test Task for creating an authentication token.
 
-- GET ALL Booking ID: Test suite for retrieving all booking IDs.
+**- GET ALL Booking ID:** Test Task for retrieving all booking IDs.
 
-- CREATE Booking: Test suite for creating a new booking.
+**- CREATE Booking:** Test Task for creating a new booking.
 
-- GET Details For Booking ID: Test suite for retrieving details of a specific booking ID.
+****- GET Details For Booking ID:** **Test Task for retrieving details of a specific booking ID.
 
-- UPDATE Booking: Test suite for updating an existing booking.
+**- UPDATE Booking**: Test Task for updating an existing booking.
 
-- UPDATE Booking Partially: Test suite for partially updating an existing booking.
+**- UPDATE Booking Partially:** Test Task for partially updating an existing booking.
 
-- DELETE Booking: Test suite for deleting a booking.
+**- DELETE Booking:** Test Task for deleting a booking.
 
-- Ping - HealthCheck: Test suite for checking the API's health status.
+**- Ping - HealthCheck:** Test Task for checking the API's health status.
 
-- For more details on the test scenarios, expected outcomes, and specific requests, refer to the descriptions and comments provided within the Postman collections.
+- For more details on the test scenarios, expected outcomes, and specific requests you will find it in the Google sheets.
