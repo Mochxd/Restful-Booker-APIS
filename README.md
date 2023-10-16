@@ -50,9 +50,10 @@ Before you begin, ensure you have met the following requirements:
   cd Restful-Booker-APIS
 
 - Install the project dependencies:
-
-  ```bash
-  npm install
+```bash
+Install Postman
+Install Newman
+Install newman-reporter-htmlextra
 
 
 ## Usage
