@@ -101,6 +101,7 @@ The repository is configured to automate the API testing process using Jenkins f
 ## Project Structure
 
 📦 Restful Booker API
+.
 ├── 📂 api-tests in Postman
 │   ├── 📜 CreateToken
 │   ├── 📜 GetAllBookingID
