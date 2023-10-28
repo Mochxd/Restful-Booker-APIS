@@ -79,7 +79,7 @@ Before you begin, ensure you have met the following requirements:
 
 **- CREATE Booking:** Test Task for creating a new booking.
 
-**- GET Details For Booking ID:** **Test Task for retrieving details of a specific booking ID.
+**- GET Details For Booking ID:** Test Task for retrieving details of a specific booking ID.
 
 **- UPDATE Booking**: Test Task for updating an existing booking.
 
@@ -89,7 +89,7 @@ Before you begin, ensure you have met the following requirements:
 
 **- Ping - HealthCheck:** Test Task for checking the API's health status.
 
-- For more details on the test scenarios, expected outcomes, and specific requests you will find it in the Google sheets.
+- For more details on the test scenarios, expected outcomes, and specific requests you will find it in the Google sheets(https://docs.google.com/spreadsheets/d/1D-xLCOiNJyycsRCLlbhDLvYaAMGR-jPT3qeNSEzXP-Q/edit#gid=3)
 
 ## Generating HTML Reports
 Newman supports multiple reporters, including htmlextra, which generates detailed HTML reports for your API test runs. To generate HTML reports, simply specify the -r htmlextra option when running Newman, as shown in the example above.
